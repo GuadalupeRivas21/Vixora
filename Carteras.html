@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIXORA - Carteras</title>
+  <style>
+    * 
+    
+
+    body {
+      background-color: #fffafc;
+      color: #333;
+    }
+
+    /* ======== MENÚ ======== */
+    header {
+      background-color: #f9dfe6;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #f0cfd7;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #e91e63;
+    }
+
+    /* ======== HERO ======== */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #fde7ee;
+    }
+
+    .hero img {
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .hero button {
+      padding: 12px 30px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #c2185b;
+    }
+
+    /* ======== PRODUCTOS ======== */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .category-card {
+      background-color: #ffeaf0;
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .category-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .category-card img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .category-card h3 {
+      margin: 15px 0 10px;
+      font-size: 18px;
+      color: #333;
+    }
+
+    .category-card button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .category-card button:hover {
+      background-color: #c2185b;
+    }
+
+    /* ======== FOOTER ======== */
+    footer {
+      background-color: #f9dfe6;
+      color: #333;
+      padding: 40px 20px;
+      text-align: center;
+      border-top: 2px solid #f0cfd7;
+    }
+
+    footer h3 {
+      color: #e91e63;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    footer p {
+      margin: 8px 0;
+      line-height: 1.6;
+    }
+
+    footer strong {
+      color: #e91e63;
+    }
+
+    .footer-bottom {
+      margin-top: 20px;
+      border-top: 1px solid #f0cfd7;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======== MENÚ ======== -->
+  <header>
+    <div class="logo">VIXORA</div>
+    <nav>
+      <ul>
+        <li><a href="Categorias.html">Categorias</a></li>
+        <li><a href="Promociones.html">Promociones</a></li>
+        <li><a href="Pijamas.html">Pijamas</a></li>
+        <li><a href="Vestidos.html">Vestidos</a></li>
+        <li><a href="Caldazo.html">Tacones</a></li>
+        <li><a href="Index.html">Shorts</a></li>
+        <li><a href="Páginados.html">Faldas</a></li>
+        <li><a href="Carteras.html">Carteras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero">
+    <img src="https://i.pinimg.com/736x/cf/63/74/cf6374eaa28b3276bc6731484030a574.jpg" alt="Modelo principal" height="450px" width="90%">
+    <h1>¡ELEVA TU ESTILO!</h1>
+    <p>Descubre las carteras más lindas, cómodas y modernas. VIXORA está diseñada para resaltar tu belleza.</p>
+    <button>Comprar Ahora</button>
+  </section>
+
+  <!-- ======== CARTERAS ======== -->
+  <section class="categories">
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/ac/fd/0d/acfd0d6f00235f4b86524a4ccbaa5825.jpg" alt="Cartera de Fresa">
+      <h3>Cartera de Fresa</h3>
+      <button>$25.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/0a/a6/b7/0aa6b79a1d79f6a9d90521914c4a6553.jpg" alt="Cartera de Estrella">
+      <h3>Cartera de Estrella</h3>
+      <button>$25.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/11/28/99/11289998a64a750139b6a4cb7ee45949.jpg" alt="Cartera de Mano">
+      <h3>Cartera de Mano</h3>
+      <button>$20.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/5b/ee/6b/5bee6b7cad8b5f17bee456c4709edecb.jpg" alt="Cartera Elegante">
+      <h3>Cartera Elegante</h3>
+      <button>$23.00</button>
+    </div>
+    
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/fe/1e/d7/fe1ed75edd2aa64fa5241dbf48d91b8b.jpg" alt="Cartera para Teléfono">
+      <h3>Cartera clasica</h3>
+      <button>$223.00</button>
+    </div>
+
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/56/f4/60/56f4608889f4d16f026d17e053295f01.jpg" alt="Cartera para Teléfono">
+      <h3>Monedero</h3>
+      <button>$23.00</button>
+    </div>
+
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/03/98/f7/0398f78688d3e7d3d241cf8a2dbb222a.jpg" alt="Cartera para Teléfono">
+      <h3>Pink</h3>
+      <button>$323.00</button>
+    </div>
+
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/4a/33/ae/4a33ae3201772357fd78cf28e8e1b91e.jpg" alt="Cartera para Teléfono">
+      <h3>Blue</h3>
+      <button>$323.00</button>
+    </div>
+
+
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer>
+    <div class="footer-content">
+      <h3>VIXORA - Moda con Estilo</h3>
+      <p>
+        En <strong>VIXORA</strong> encontrarás las últimas tendencias en <strong>looks, prendas, pijamas, vestidos, tacones, shorts, faldas, carteras, pantalones, suéteres y maquillaje</strong>.
+        Cada prenda está elaborada con telas de la mejor calidad para brindarte comodidad y elegancia en todo momento.
+      </p>
+      <p><strong>Contacto:</strong><br>
+        Tel: +503 7890-1234 <br>
+        Email: contacto@vixora.com
+      </p>
+      <p><strong>Síguenos:</strong><br>
+        Facebook: @VixoraModa <br>
+        Instagram: @Vixora_Style <br>
+        TikTok: @VixoraTrends
+      </p>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 VIXORA. Derechos reservados para <strong>Emely</strong>, <strong>Fabiola</strong>, <strong>Laura</strong>, <strong>Guadalupe</strong> y <

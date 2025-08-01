@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIXORA - Tacones</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background-color: #fffafc;
+      color: #333;
+    }
+
+    header {
+      background-color: #f9dfe6;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #f0cfd7;
+    }
+
+    .logo {
+      font-size: 32px;
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #e91e63;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #fde7ee;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      max-width: 600px;
+      margin: 0 auto 20px;
+    }
+
+    .hero button {
+      padding: 12px 30px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #c2185b;
+    }
+
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 25px;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .productos article {
+      background-color: #ffeaf0;
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .productos article:hover {
+      transform: translateY(-5px);
+    }
+
+    .productos img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .productos p {
+      margin-top: 15px;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======== MENÚ ======== -->
+  <header>
+    <div class="logo">VIXORA</div>
+    <nav>
+      <ul>
+       <li><a href="Categorias.html">Categorias</a></li>
+        <li><a href="Promociones.html">Promociones</a></li>
+        <li><a href="Pijamas.html">Pijamas</a></li>
+        <li><a href="Vestidos.html">Vestidos</a></li>
+        <li><a href="Caldazo.html">Tacones</a></li>
+        <li><a href="Index.html">Shorts</a></li>
+        <li><a href="Páginados.html">Faldas</a></li>
+        <li><a href="Carteras.html">Carteras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero">
+    <h1>¡ELEVA TU ESTILO!</h1>
+    <p>Los tacones VIXORA no son solo calzado, son el símbolo de tu fuerza y estilo.</p>
+    <button>Comprar Ahora</button>
+  </section>
+
+  <!-- ======== PRODUCTOS ======== -->
+  <section class="productos">
+    <article>
+      <img src="https://i.pinimg.com/1200x/0f/fd/3e/0ffd3ec2d0acc3f682deae7a8fdf8d3a.jpg" alt="Tacones negros">
+      <p>Tacones negros<br><strong>$32.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/1200x/79/f6/33/79f6338f16d5250968706e9e351fc9d4.jpg" alt="Tacones formales estilo Europeo">
+      <p>Tacones formales estilo Europeo<br><strong>$30.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/736x/57/0e/d5/570ed5d0ed8f119f2f175dcdd73eb37c.jpg" alt="Sandalias con tacón bajo">
+      <p>Sandalias con tacón bajo<br><strong>$16.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/736x/56/c6/32/56c63228eca8d2c31608ad4bfab874db.jpg" alt="Zapatos de tacón alto estilo Pure Desire">
+      <p>Zapatos de tacón alto estilo Pure Desire<br><strong>$36.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/736x/ff/00/51/ff005133683338358bc5f1add782ec7a.jpg" alt="Zapatos de tacón Lazo Diamante">
+      <p>Zapatos de tacón Lazo Diamante<br><strong>$22.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/736x/ab/ad/4e/abad4ed4bbf967521d869f1a8e9638f6.jpg" alt="Zapatillas elegantes con plataforma">
+      <p>Zapatillas elegantes con plataforma<br><strong>$28.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/1200x/d8/03/3d/d8033ddec08c21422faa89650e325e0c.jpg" alt="Zapatillas elegantes con plataforma">
+      <p>Zapatillas elegantes con plataforma<br><strong>$28.00</strong></p>
+    </article>
+
+    <article>
+      <img src="https://i.pinimg.com/736x/57/2c/2d/572c2d62dca7496c58bca246c9d6a736.jpg" alt="Zapatillas elegantes con plataforma">
+      <p>Zapatillas elegantes con plataforma<br><strong>$28.00</strong></p>
+    </article>
+  </section>
+
+    <!--Foto-->
+<section class="promo-banner">
+  <img src="https://i.pinimg.com/1200x/ff/d5/4d/ffd54db4e4efc1de685a949689904834.jpg" alt="Promoción VIXORA" style="width:100%; max-height:250px; object-fit:cover;">
+</section>
+
+<!-- ======== CATÁLOGO ======== -->
+<section class="catalogo-grid">
+  <h2 style="color: rgb(202, 163, 111); text-align: center; margin: 40px 0 20px;">Nuestra Última Colección</h2>
+  <div class="grid-container">
+    <div class="producto">
+      <img src="https://i.pinimg.com/736x/05/ad/69/05ad696ec346bb7ecd6ae4ebb5fb6a52.jpg" alt="Zapatilla Elegante">
+      <h3>Zapatilla Elegante</h3>
+      <p>$65.00</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.pinimg.com/1200x/4a/e0/64/4ae0647e36271baa2836b0b6dc2933ad.jpg" alt="Diamond">
+      <h3>Diamond</h3>
+      <p>$112.00</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.pinimg.com/1200x/eb/d1/87/ebd187468937e7ff0aee84196bb859a5.jpg" alt="Modern">
+      <h3>Modern</h3>
+      <p>$40.00</p>
+      <button>Comprar</button>
+    </div>
+
+    <div class="producto">
+      <img src="https://i.pinimg.com/1200x/09/ce/4a/09ce4a64fdf0ca19d8827547adcc7690.jpg" alt="Elegante">
+      <h3>Elegante</h3>
+      <p>$112.00</p>
+      <button>Comprar</button>
+    </div>
+  </div>
+</section>
+
+<!-- ======== ESTILOS PARA CATÁLOGO ======== -->
+<style>
+  .catalogo-grid {
+    background-color: #fffaf5;
+    padding: 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .producto {
+    background-color: #ffeae9;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+
+  .producto:hover {
+    transform: translateY(-5px);
+  }
+
+  .producto img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+
+  .producto h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+
+  .producto p {
+    font-size: 16px;
+    color: #e91e63;
+    margin-bottom: 15px;
+  }
+
+  .producto button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .producto button:hover {
+    background-color: #c2185b;
+  }
+</style>
+
+
+</body>
+</html>

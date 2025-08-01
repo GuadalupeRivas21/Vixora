@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIXORA - Moda</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #fdf1f4;
+      color: #333;
+    }
+
+    /* ======== MENÚ ======== */
+    header {
+      background-color: #f9dfe6;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #f0cfd7;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    header .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #e91e63;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #e91e63;
+    }
+
+    /* ======== HERO ======== */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #fde7ee;
+    }
+
+    .hero h1 {
+      margin-top: 20px;
+      font-size: 40px;
+      color: #222;
+    }
+
+    .hero p {
+      margin: 15px 0;
+      font-size: 16px;
+      color: #555;
+      max-width: 600px;
+    }
+
+    .hero button {
+      padding: 12px 25px;
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #c2185b;
+    }
+
+    /* ======== PRODUCTOS ======== */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+      background-color: #fff;
+    }
+
+    .category-card {
+      background-color: #ffeaf0;
+      border-radius: 10px;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .category-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .category-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+
+    .category-card h3 {
+      margin: 15px 0 10px;
+      color: #333;
+    }
+
+    .category-card button {
+      background-color: #e91e63;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .category-card button:hover {
+      background-color: #c2185b;
+    }
+
+    /* ======== FOOTER ======== */
+    footer {
+      background-color: #f9dfe6;
+      color: #333;
+      padding: 30px 20px;
+      text-align: center;
+      margin-top: 40px;
+      border-top: 2px solid #f0cfd7;
+    }
+
+    footer h3 {
+      color: #e91e63;
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+
+    footer p {
+      margin: 8px 0;
+      line-height: 1.5;
+    }
+
+    footer strong {
+      color: #e91e63;
+    }
+
+    .footer-bottom {
+      margin-top: 20px;
+      border-top: 1px solid #f0cfd7;
+      padding-top: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ======== MENÚ ======== -->
+  <header>
+    <div class="logo">VIXORA</div>
+    <nav>
+      <ul>
+       <li><a href="Categorias.html">Categorias</a></li>
+        <li><a href="Promociones.html">Promociones</a></li>
+        <li><a href="Pijamas.html">Pijamas</a></li>
+        <li><a href="Vestidos.html">Vestidos</a></li>
+        <li><a href="Caldazo.html">Tacones</a></li>
+        <li><a href="Index.html">Shorts</a></li>
+        <li><a href="Páginados.html">Faldas</a></li>
+        <li><a href="Carteras.html">Carteras</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ======== HERO ======== -->
+  <section class="hero">
+    <h1>¡ELEVA TU ESTILO!</h1>
+    <p>Descubre los vestidos más elegantes y modernos para cada ocasión. La colección VIXORA está diseñada para resaltar tu belleza.</p>
+    <button>Comprar Ahora</button>
+  </section>
+
+  <!-- ======== VESTIDOS ======== -->
+  <section class="categories">
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/1d/77/3b/1d773b140f7b7063ef6ee78de3329b9f.jpg" alt="Vestido Floral">
+      <h3>Vestido Floral</h3>
+      <button>$25.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/9e/d2/cd/9ed2cd49a83440c48246127731dc9652.jpg" alt="Vestido Elegante">
+      <h3>Vestido Elegante</h3>
+      <button>$35.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/42/b9/a2/42b9a2c4b0aae866dddc08d711ecc3fd.jpg" alt="Vestido Casual">
+      <h3>Vestido Casual</h3>
+      <button>$30.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/1a/1f/47/1a1f4704428ebc0a92bdbbcb74238e77.jpg" alt="Vestido Moderno">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/d2/72/57/d27257f09c3c88850eaee91d7797125e.jpg" alt="Vestido Floral 2">
+      <h3>Vestido Floral</h3>
+      <button>$25.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/43/4c/3e/434c3e40d55069a846fbabf9237846b9.jpg" alt="Vestido Elegante 2">
+      <h3>Vestido Elegante</h3>
+      <button>$35.00</button>
+    </div>
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/df/da/cf/dfdacf6f16ac35aa5031d4c49768c203.jpg" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+<div class="category-card">
+      <img src="https://i.pinimg.com/1200x/e6/60/ae/e660aee1b6d975274327992bbfad2fc4.jpg" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+    <div class="category-card">
+      <img src="https://i.pinimg.com/1200x/33/57/64/335764bf8d3add4ed8c9bfc447126770.jpg"" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+    <div class="category-card">
+      <img src="https://i.pinimg.com/736x/c9/4d/1d/c94d1df8f35a4d8a69d1503c886826c5.jpg" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+<div class="category-card">
+      <img src="https://i.pinimg.com/736x/57/52/20/57522070bbc1a51e7ba825dec4f459a1.jpg" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+<div class="category-card">
+      <img src="https://i.pinimg.com/1200x/61/d2/9b/61d29bae534e123c199915df979a14f5.jpg" alt="Vestido Moderno 2">
+      <h3>Vestido Moderno</h3>
+      <button>$40.00</button>
+    </div>
+
+  </section>
+
+  <!-- ======== FOOTER ======== -->
+  <footer>
+    <div class="footer-content">
+      <h3>VIXORA - Moda con Estilo</h3>
+      <p>
+        En <strong>VIXORA</strong> encontrarás las últimas tendencias en <strong>looks, prendas, pijamas, vestidos, tacones, shorts, faldas, carteras, pantalones, suéteres y maquillaje</strong>.
+        Cada prenda está elaborada con telas de la mejor calidad para brindarte comodidad y elegancia en todo momento.
+      </p>
+      <p><strong>Contacto:</strong><br>
+        Tel: +503 7890-1234 <br>
+        Email: contacto@vixora.com
+      </p>
+      <p><strong

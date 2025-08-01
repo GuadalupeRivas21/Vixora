@@ -1,0 +1,279 @@
+Luxx{
+background-image: url("fondo.jpg"); /* Cambia esto por el nombre de tu imagen */
+background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+background-repeat: no-repeat; /* Evita que se repita */
+background-position: center; /* Centra la imagen */
+    
+
+}
+
+
+
+.Padre1{
+
+background-color: rgb(199, 167, 167);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+
+
+.Padre1:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+.Padre2{
+
+background-color:(#b8496e);
+width: 300px;
+height:400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+.Padre2:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+
+.Padre3{
+
+background-color: rgb(#c5b0b2ab);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+
+.Padre3:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+.Padre4{
+
+background-color: rgb(#c5b0b2ab);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+
+.Padre5{
+
+background-color:(#b8496e);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+.Padre5:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+
+.Padre6{
+
+background-color:(#b8496e);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+.Padre6:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+
+.Padre7{
+
+background-color:(#b8496e);
+width: 300px;
+height: 400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+.Padre7:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+.Info6{
+font-size: 20px;
+text-align: center;
+}
+
+.Padre8{
+
+background-color:(#b8496e);
+width: 300px;
+height:400px;
+align-items:flex-end;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 10px;
+justify-content: center;
+margin: 1%;
+}
+.Padre8:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+ 
+.Info7{
+font-size: 20px;
+text-align: center;
+}
+
+
+.Padre4:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+
+.Venta1{
+background-color: rgb(255, 168, 194);
+width: 600px;
+height: 300px;
+align-items:center;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+margin: 1%;
+}
+.Venta1:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+.Venta2{
+background-color: rgb(255, 168, 194);
+width: 650px;
+height: 300px;
+align-items:center;
+box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+border-radius: 8px;
+margin: 1%;
+}
+.Venta2:hover{
+
+  background-color: rgb(250, 221, 244);
+}
+
+.maq1{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq2{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq3{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq4{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq5{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+.maq6{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq7{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.maq8{
+width: 275px;
+height: 220px;
+padding: 3%;
+border-radius: 6px;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.Maqui{
+
+width: 600px;
+height: 300px;
+align-items:center;
+border-radius: 8px;
+}
+
+.Maqui2{
+
+width: 650px;
+height: 300px;
+align-items:center;
+border-radius: 8px;
+}
